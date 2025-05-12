@@ -84,7 +84,7 @@ print(result.success)
 print('fun=',result.fun) 
 print('Flows:',F)       
 
-
+print('verification')
 print([np.sum(F[0,:]),np.sum(F[1,:]),np.sum(F[2,:])])
 print([np.sum(F[:,0]),np.sum(F[:,1]),np.sum(F[:,2])])
 print(x)
