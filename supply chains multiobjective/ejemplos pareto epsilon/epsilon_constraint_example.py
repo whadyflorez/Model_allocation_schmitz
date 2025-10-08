@@ -21,7 +21,7 @@ def constraint3(x):
     return x[1]               # x2 >= 0
 
 # Rango de epsilon
-epsilons = np.linspace(0.5, 6.0, 25)
+epsilons = np.linspace(0.5, 10.0, 25)
 pareto_points = []
 
 # Optimización para cada epsilon
